@@ -1,6 +1,6 @@
 Package: fitdc
-Title: Garmin FIT file decoder
-Version: 0.0.0.9000
+Title: Garmin FIT File Decoder
+Version: 0.0.1
 Authors@R: person("Jordan", "Mackie", email = "jmackie@protonmail.com", role = c("aut", "cre"))
 Description: A pure R package for decoding Garmin FIT files.
 Depends:
