@@ -2,7 +2,7 @@ Package: fitdc
 Title: Garmin FIT File Decoder
 Version: 0.0.1
 Authors@R: person("Jordan", "Mackie", email = "jmackie@protonmail.com", role = c("aut", "cre"))
-Description: A pure R package for decoding Garmin FIT files.
+Description: A pure R package for decoding activity files written in the FIT ("Flexible and Interoperable Data Transfer") format. A format that is fast becoming the standard for recording running and cycling data. Details of the FIT protocol can be found at <https://www.thisisant.com/resources/fit>.
 Depends:
     R (>= 3.3.1)
 License: MIT + file LICENSE
