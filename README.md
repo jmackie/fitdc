@@ -1,5 +1,8 @@
 # readfit
 
+![version badge](http://www.r-pkg.org/badges/version/fitdc)
+![download badge](http://cranlogs.r-pkg.org/badges/grand-total/fitdc?color=8808ff)
+
 A pure `R` library for decoding Garmin FIT files. Written to circumvent the open-source incompatible [FIT SDK](https://www.thisisant.com/resources/fit), and hopefully serve as a reference for those interested in this (increasingly popular) file format.
 
 ## References
