@@ -3,3 +3,4 @@
 ^tests$
 ^resources$
 ^scripts$
+^cran-comments\.md$
