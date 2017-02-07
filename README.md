@@ -1,4 +1,4 @@
-# readfit
+# fitdc
 
 ![version badge](http://www.r-pkg.org/badges/version/fitdc)
 ![download badge](http://cranlogs.r-pkg.org/badges/grand-total/fitdc?color=8808ff)
