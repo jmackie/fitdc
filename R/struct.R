@@ -52,6 +52,13 @@ unpack <- function(fmt, conn, endianness = "little", n = 1, ...) {
     "I" = unsigned_I(readBin(conn, what = raw(), n = 4 , size = 1,
                              endian = endianness, ...)),
 
+    # floating point types
+    # --------------------
+    "f" = readBin(conn, what = double(), n = n, size = 4,
+                  endian = endianness, ...),
+    "d" = readBin(conn, what = double(), n = n, size = 8,
+                  endian = endianness, ...),
+
     # other types
     # -----------
     # *NEEDS* an n argument.

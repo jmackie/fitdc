@@ -14,8 +14,8 @@ filter <- function(x, f) Filter(f, x)
 
 
 # CHANGE THESE PATHS ON DEPLOYMENT.
-.Messages   <- fromJSON("/home/jmach/R/projects/readfit/scripts/Messages.json")
-.Types      <- fromJSON("/home/jmach/R/projects/readfit/scripts/Types.json")
+.Messages   <- fromJSON("Messages.json")
+.Types      <- fromJSON("Types.json")
 
 
 # Base types
